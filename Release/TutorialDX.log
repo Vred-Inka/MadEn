@@ -1,0 +1,4 @@
+﻿C:\Users\Vredinka\Documents\DX11EngineTutor\TutorialDX\pixelshader.hlsl(17,12-76): warning X3206: implicit truncation of vector type
+C:\Users\Vredinka\Documents\DX11EngineTutor\TutorialDX\pixelshader.hlsl(15,29-39): error X4502: invalid vs_2_0 output semantic 'SV_TARGET'
+  
+  compilation failed; no code produced

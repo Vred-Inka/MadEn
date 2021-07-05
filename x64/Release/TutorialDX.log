@@ -1,0 +1,54 @@
+﻿C:\Users\Vredinka\Documents\DX11EngineTutor\TutorialDX\pixelshader.hlsl(17,12-76): warning X3206: implicit truncation of vector type
+  
+  compilation object save succeeded; see C:\Users\Vredinka\Documents\DX11EngineTutor\x64\Release\pixelshader.cso
+  compilation object save succeeded; see C:\Users\Vredinka\Documents\DX11EngineTutor\x64\Release\vertexshader.cso
+  Camera.cpp
+c:\users\vredinka\documents\dx11enginetutor\tutorialdx\graphics\camera.cpp(154): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vredinka\documents\dx11enginetutor\tutorialdx\graphics\camera.cpp(154): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+c:\users\vredinka\documents\dx11enginetutor\tutorialdx\graphics\camera.cpp(155): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\vredinka\documents\dx11enginetutor\tutorialdx\graphics\camera.cpp(161): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  AdaptorReader.cpp
+  Engine.cpp
+c:\users\vredinka\documents\dx11enginetutor\tutorialdx\engine.cpp(27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  ErrorLogger.cpp
+  Graphics.cpp
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  KeyboardClass.cpp
+  KeyboardEvent.cpp
+  Model.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(2538): warning C4267: 'initializing': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=UINT
+          ]
+  c:\users\vredinka\documents\dx11enginetutor\tutorialdx\graphics\vertexbuffer.h(57): note: see reference to function template instantiation 'std::unique_ptr<UINT,std::default_delete<_Ty>> std::make_unique<UINT,size_t,0>(size_t &&)' being compiled
+          with
+          [
+              _Ty=UINT
+          ]
+  c:\users\vredinka\documents\dx11enginetutor\tutorialdx\graphics\vertexbuffer.h(47): note: while compiling class template member function 'HRESULT VertexBuffer<Vertex>::Initialize(ID3D11Device *,T *,UINT)'
+          with
+          [
+              T=Vertex
+          ]
+  c:\users\vredinka\documents\dx11enginetutor\tutorialdx\graphics\model.cpp(26): note: see reference to function template instantiation 'HRESULT VertexBuffer<Vertex>::Initialize(ID3D11Device *,T *,UINT)' being compiled
+          with
+          [
+              T=Vertex
+          ]
+  c:\users\vredinka\documents\dx11enginetutor\tutorialdx\graphics\model.h(49): note: see reference to class template instantiation 'VertexBuffer<Vertex>' being compiled
+  MouseClass.cpp
+  MouseEvent.cpp
+  RenderWindow.cpp
+  Shaders.cpp
+  Source.cpp
+  StringConverter.cpp
+  Compiling...
+  Timer.cpp
+  WindowContainer.cpp
+LINK : fatal error LNK1181: cannot open input file 'assimp-vc140-mt.lib'

@@ -1,0 +1,49 @@
+﻿C:\Users\Vredinka\Documents\DX11EngineTutor\TutorialDX\pixelshader.hlsl(17,12-76): warning X3206: implicit truncation of vector type
+  
+  compilation object save succeeded; see C:\Users\Vredinka\Documents\DX11EngineTutor\x64\Debug\pixelshader.cso
+  compilation object save succeeded; see C:\Users\Vredinka\Documents\DX11EngineTutor\x64\Debug\vertexshader.cso
+  Camera.cpp
+c:\users\vredinka\documents\dx11enginetutor\tutorialdx\graphics\camera.cpp(122): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\vredinka\documents\dx11enginetutor\tutorialdx\graphics\camera.cpp(122): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+c:\users\vredinka\documents\dx11enginetutor\tutorialdx\graphics\camera.cpp(123): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\vredinka\documents\dx11enginetutor\tutorialdx\graphics\camera.cpp(129): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  AdaptorReader.cpp
+  Engine.cpp
+c:\users\vredinka\documents\dx11enginetutor\tutorialdx\engine.cpp(27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  ErrorLogger.cpp
+  Graphics.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(2538): warning C4267: 'initializing': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=UINT
+          ]
+  c:\users\vredinka\documents\dx11enginetutor\tutorialdx\graphics\vertexbuffer.h(56): note: see reference to function template instantiation 'std::unique_ptr<UINT,std::default_delete<_Ty>> std::make_unique<UINT,size_t,0>(size_t &&)' being compiled
+          with
+          [
+              _Ty=UINT
+          ]
+  c:\users\vredinka\documents\dx11enginetutor\tutorialdx\graphics\vertexbuffer.h(46): note: while compiling class template member function 'HRESULT VertexBuffer<Vertex>::Initialize(ID3D11Device *,T *,UINT)'
+          with
+          [
+              T=Vertex
+          ]
+  c:\users\vredinka\documents\dx11enginetutor\tutorialdx\graphics\graphics.cpp(360): note: see reference to function template instantiation 'HRESULT VertexBuffer<Vertex>::Initialize(ID3D11Device *,T *,UINT)' being compiled
+          with
+          [
+              T=Vertex
+          ]
+  c:\users\vredinka\documents\dx11enginetutor\tutorialdx\graphics\graphics.h(57): note: see reference to class template instantiation 'VertexBuffer<Vertex>' being compiled
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  RenderWindow.cpp
+  Shaders.cpp
+  Source.cpp
+  Timer.cpp
+  WindowContainer.cpp
+  Generating Code...
+c:\users\vredinka\documents\dx11enginetutor\tutorialdx\windowcontainer.cpp(166): warning C4715: 'WindowContainer::WindowProc': not all control paths return a value
+DirectXTK.lib(SpriteBatch.obj) : fatal error LNK1112: module machine type 'ARM64' conflicts with target machine type 'x64'
